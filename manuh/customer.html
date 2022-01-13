@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Customer Details</title>
+
+<link rel="stylesheet" href="customerStyle.css">
+
+<script src="message.js">
+</script>  
+</head>
+<body>
+<h1> Customer Details </h1>
+<form name="myForm" action="C:\Users\ngotiyada\Desktop\cd.html"> 
+<label for= "firstName"> firstName:</label>
+	<input type="text" id="firstName" name="firstName" placeholder="Enter firstName" required/> <br><br>
+<label for= "lasttName"> lastName:</label> 
+	<input type="text" id="lastName" name="lastName" placeholder="Enter lastName"/> <br><br>
+<label for= "phoneNo"> phoneNo:</label> 
+	<input type="text" id="phoneNo" name="phoneNo" placeholder="Enter phoneNo"/> <br><br>
+<label for= "city"> city:</label>  
+	<input type="text" id="city" name="city" placeholder="Enter city"/> <br><br>
+<label for= "pincode"> pincode:</label>
+	<input type="text" id="pincode" name="pincode" placeholder="Enter pincode"/> <br><br>
+<label for= "custId"> custId:</label> 
+	<input type="text" id="custId" name="custId" placeholder="Enter custId"/> <br><br>
+<label for= "orderNo"> orderNo:</label>
+	<input type="text" id="orderNo" name="orderNo" placeholder="Enter orderNo"/> <br><br>
+<label for= "billDate"> billDate:</label> 
+	<input type="text" id="billDate" name="billDate" placeholder="Enter billDate"/> <br><br>
+<label for= "itemQuantity"> itemQuantity:</label>
+	<input type="text" id="itemQuantity" name="itemQuantity" placeholder="Enter itemQuantity"/> <br><br>	
+<label for= "billAmount"> billAmount:</label> 
+	<input type="text" id="billAmount" name="billAmount" placeholder="Enter billAmount"/> <br><br>
+
+<input type="button"  onclick="return message()" value="submit"/>
+
+<button><a href="customerData.html">Back</a></button>
+
+</form>
+
+</body>
+</html>
